@@ -1,0 +1,10 @@
+const arr = [1, 2, 3, 4, 5, 6, 7];
+
+const solution = (arr, num) => {
+
+    arr.reduce((pV, cV) => {
+        console.log(pV)
+    })
+
+}   
+solution(arr, 5)

@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 5rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 1fr);
+}
+
+.box__1 {
+  background-color: green;
+  height: 5rem;
+  padding: 1rem;
+  margin: 0 0 5rem 0;
+
+  display: flex;
+  flex-basis: 20rem 20rem 20rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-3 {
+  width: 20rem;
+}
+
+.header-3__2 {
+  justify-self: flex-end;
+  order: 1;
+  /* text-align: right; */
+}
+
+.header-3__3 {
+  justify-self: flex-end;
+  /* text-align: right; */
+}
+
+.box__2 {
+  background-color: green;
+  height: 5rem;
+  padding: 1rem;
+  margin: 0 0 5rem 0;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box__3 {
+  background-color: green;
+  height: 5rem;
+  padding: 1rem;
+  margin: 0 0 5rem 0;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box__3 .text {
+  align-self: flex-start;
+}
